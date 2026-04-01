@@ -33,6 +33,18 @@ namespace EsercitazioniCS
             int numero = 23;
             string stringa = Convert.ToString(numero);
 
+            //lavorare con le stringhe
+            string saluto = "Ciao \"luca\""; //Output: Ciao "luca"
+            Console.WriteLine(saluto);
+
+            saluto = "Ciao \nLuca"; //Output: Ciao (a capo) Luca
+            Console.WriteLine(saluto);
+
+            //formattazione stringhe
+            Console.WriteLine("Ciao {0} hai {1} anni", nome, eta);
+            Console.WriteLine("Ciao {1} hai {0} anni", nome, eta);
+            Console.WriteLine($"Ciao {nome} hai {eta} anni");
+
             Console.WriteLine("Ciao " + nome + " " + eta + "enne ");
             Console.Read();
         }
