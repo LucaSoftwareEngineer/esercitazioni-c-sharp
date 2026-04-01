@@ -6,7 +6,10 @@ namespace EsercitazioniCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            const string nome = "Luca";
+            int eta = 23;
+
+            Console.WriteLine("Ciao " + nome + " " + eta + "enne ");
             Console.Read();
         }
     }
