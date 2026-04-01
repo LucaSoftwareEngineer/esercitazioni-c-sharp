@@ -45,6 +45,13 @@ namespace EsercitazioniCS
             Console.WriteLine("Ciao {1} hai {0} anni", nome, eta);
             Console.WriteLine($"Ciao {nome} hai {eta} anni");
 
+
+            //esecitazioni numeri
+            Math.Pow(2, 3);
+            Math.Sqrt(16);
+            Math.Min(5, 10);
+            Math.Max(5, 10);
+
             Console.WriteLine("Ciao " + nome + " " + eta + "enne ");
             Console.Read();
         }
