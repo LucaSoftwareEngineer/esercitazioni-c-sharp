@@ -9,7 +9,9 @@ namespace EsercitazioniCS
         static void Main(string[] args)
         {
             //GliInput input = new GliInput();ù
-            Sommatore sommatore = new Sommatore();
+            //Sommatore sommatore = new Sommatore();
+
+            GestioneEccezioni ex = new GestioneEccezioni();
         }
     }
 }
