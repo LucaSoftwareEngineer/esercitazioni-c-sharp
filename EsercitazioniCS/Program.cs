@@ -10,8 +10,8 @@ namespace EsercitazioniCS
         {
             //GliInput input = new GliInput();ù
             //Sommatore sommatore = new Sommatore();
-
-            GestioneEccezioni ex = new GestioneEccezioni();
+            //GestioneEccezioni ex = new GestioneEccezioni();
+            OperatoriLogici operatoriLogici = new OperatoriLogici();
         }
     }
 }
