@@ -56,6 +56,24 @@ namespace EsercitazioniCS.EsercitazioniElementari
             {
                 Console.WriteLine(nome);
             }
+
+            for (int k = 0; k < 10; k++)
+            {
+                if (k == 4)
+                    break; // esce dal ciclo
+
+                Console.WriteLine(k);
+            }
+
+
+            for (int p = 0; p < 10; p++)
+            {
+                if (p > 3 && p < 7)
+                    continue; // salta iterazioni 4, 5, 6
+
+                Console.WriteLine(p);
+            }
+
         }
     }
 }
