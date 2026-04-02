@@ -45,6 +45,17 @@ namespace EsercitazioniCS.EsercitazioniElementari
                 Console.WriteLine(i);
                 i++;
             } while (i < 5);
+
+            for (char j = 'a'; j < 'z' + 1; j++)
+            {
+                Console.WriteLine(j);
+            }
+
+            String[] nomi = { "Mario", "Luigi", "Peach" };
+            foreach (String nome in nomi)
+            {
+                Console.WriteLine(nome);
+            }
         }
     }
 }
