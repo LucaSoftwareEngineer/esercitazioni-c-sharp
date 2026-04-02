@@ -16,6 +16,7 @@ namespace EsercitazioniCS
             Metodi.Saluta();
             Metodi.Somma(1, 2);
             Metodi.Somma(1, 2, 3);
+            EsercitazioniElementari.Array.ese();
         }
     }
 }
