@@ -10,5 +10,15 @@ namespace EsercitazioniCS.EsercitazioniElementari
         {
             Console.WriteLine("Ciao!");
         }
+
+        public static int Somma(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static int Somma(int a, int b, int c)
+        {
+            return a + b + c;
+        }
     }
 }

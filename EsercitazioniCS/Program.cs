@@ -14,6 +14,8 @@ namespace EsercitazioniCS
             //OperatoriLogici operatoriLogici = new OperatoriLogici();
             //CondizioniAndCicli condizioniAndCicli = new CondizioniAndCicli();
             Metodi.Saluta();
+            Metodi.Somma(1, 2);
+            Metodi.Somma(1, 2, 3);
         }
     }
 }
