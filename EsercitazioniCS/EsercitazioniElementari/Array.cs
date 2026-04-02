@@ -30,6 +30,23 @@ namespace EsercitazioniCS.EsercitazioniElementari
                 }
                 Console.WriteLine();
             }
+
+            //array irregolari
+            int[][] arrayIrregolare =
+            {
+                new int[] { 1, 2, 3, 4},
+                new int[] { 5, 6 },
+                new int[] { 7, 8, 9 }
+            };
+
+            for (int i = 0; i < arrayIrregolare.Length; i++)
+            {
+                for (int j = 0; j < arrayIrregolare[i].Length; j++)
+                {
+                    Console.Write(arrayIrregolare[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
