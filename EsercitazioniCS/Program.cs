@@ -12,7 +12,8 @@ namespace EsercitazioniCS
             //Sommatore sommatore = new Sommatore();
             //GestioneEccezioni ex = new GestioneEccezioni();
             //OperatoriLogici operatoriLogici = new OperatoriLogici();
-            CondizioniAndCicli condizioniAndCicli = new CondizioniAndCicli();
+            //CondizioniAndCicli condizioniAndCicli = new CondizioniAndCicli();
+            Metodi.Saluta();
         }
     }
 }
