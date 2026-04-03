@@ -27,9 +27,11 @@ namespace EsercitazioniCS
 
             //nota: il metodo Clear svuota la collezione
 
-            Persona p1 = new Persona();
-            p1.Name = "Mario";
+            Persona p1 = new Persona("Mario");
             p1.Saluta();
+
+            Persona p2 = new Persona("Luigi", "Verdi");
+            p2.Saluta();
 
         }
     }
