@@ -19,7 +19,13 @@ namespace EsercitazioniCS
             //EsercitazioniElementari.Array.ese();
             //LeArrayList leArrayList = new LeArrayList();
             //LeListe leListe = new LeListe();
-            LeHashTable leHashTable = new LeHashTable();
+            //LeHashTable leHashTable = new LeHashTable();
+            //IDictionary iDictionary = new IDictionary();
+            //LeCollections.Stack stack = new LeCollections.Stack();
+            LeQueue leQueue = new LeQueue();
+
+            //nota: il metodo Clear svuota la collezione
+
         }
     }
 }
