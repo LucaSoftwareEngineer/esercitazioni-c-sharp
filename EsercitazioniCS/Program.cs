@@ -1,5 +1,6 @@
 ﻿using EsercitazioniCS.Calcolatrice;
 using EsercitazioniCS.LeCollections;
+using EsercitazioniCS.OrientedObject;
 using System;
 
 namespace EsercitazioniCS
@@ -25,6 +26,10 @@ namespace EsercitazioniCS
             LeQueue leQueue = new LeQueue();
 
             //nota: il metodo Clear svuota la collezione
+
+            Persona p1 = new Persona();
+            p1.Name = "Mario";
+            p1.Saluta();
 
         }
     }
