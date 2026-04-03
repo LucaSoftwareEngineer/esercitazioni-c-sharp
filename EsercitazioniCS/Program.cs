@@ -1,5 +1,5 @@
 ﻿using EsercitazioniCS.Calcolatrice;
-using EsercitazioniCS.EsercitazioniElementari;
+using EsercitazioniCS.LeCollections;
 using System;
 
 namespace EsercitazioniCS
@@ -17,7 +17,8 @@ namespace EsercitazioniCS
             //Metodi.Somma(1, 2);
             //Metodi.Somma(1, 2, 3);
             //EsercitazioniElementari.Array.ese();
-            LeArrayList leArrayList = new LeArrayList();
+            //LeArrayList leArrayList = new LeArrayList();
+            LeListe leListe = new LeListe();
         }
     }
 }
