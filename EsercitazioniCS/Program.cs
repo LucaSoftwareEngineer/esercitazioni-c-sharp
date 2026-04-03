@@ -13,10 +13,11 @@ namespace EsercitazioniCS
             //GestioneEccezioni ex = new GestioneEccezioni();
             //OperatoriLogici operatoriLogici = new OperatoriLogici();
             //CondizioniAndCicli condizioniAndCicli = new CondizioniAndCicli();
-            Metodi.Saluta();
-            Metodi.Somma(1, 2);
-            Metodi.Somma(1, 2, 3);
-            EsercitazioniElementari.Array.ese();
+            //Metodi.Saluta();
+            //Metodi.Somma(1, 2);
+            //Metodi.Somma(1, 2, 3);
+            //EsercitazioniElementari.Array.ese();
+            LeArrayList leArrayList = new LeArrayList();
         }
     }
 }
