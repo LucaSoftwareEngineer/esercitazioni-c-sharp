@@ -18,7 +18,8 @@ namespace EsercitazioniCS
             //Metodi.Somma(1, 2, 3);
             //EsercitazioniElementari.Array.ese();
             //LeArrayList leArrayList = new LeArrayList();
-            LeListe leListe = new LeListe();
+            //LeListe leListe = new LeListe();
+            LeHashTable leHashTable = new LeHashTable();
         }
     }
 }
