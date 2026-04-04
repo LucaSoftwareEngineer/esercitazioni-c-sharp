@@ -33,6 +33,9 @@ namespace EsercitazioniCS
             Persona p2 = new Persona("Luigi", "Verdi");
             p2.Saluta();
 
+            Persona.SalutaTutti();
+
+            Console.WriteLine($"Le persone sono: {Persona.NumeroPersone}");
         }
     }
 }
